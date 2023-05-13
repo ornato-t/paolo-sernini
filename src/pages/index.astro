@@ -1,18 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Home from '../components/Home.svelte';
+import Therapy from '../components/Therapy.svelte';
+import Pubblications from '../components/Pubblications.svelte';
 ---
 <Layout title="Hello world">
 	  
 	<main class="scrollable">
-		<div class="bg-red-500 text-white scrollable-element">
-		  <!-- Your content here -->
-		</div>
-		<div class="bg-green-500 text-white scrollable-element">
-		  <!-- Your content here -->
-		</div>
-		<div class="bg-blue-500 text-white scrollable-element">
-		  <!-- Your content here -->
-		</div>
+		<Home/>
+		<Therapy/>
+		<Pubblications/>
 	</main>
 
 </Layout>
