@@ -13,6 +13,7 @@
     "@astrojs/svelte": "^2.1.1",
     "@astrojs/tailwind": "^3.1.2",
     "astro": "^2.4.2",
+    "astro-icon": "^0.8.0",
     "daisyui": "^2.51.6",
     "svelte": "^3.59.0",
     "tailwindcss": "^3.3.2"
