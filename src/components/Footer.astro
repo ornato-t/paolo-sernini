@@ -1,0 +1,68 @@
+---
+import { Icon } from "astro-icon";
+
+const phone = "342 3753864";
+const addr1 = "Via Valgelata 8, Rocca d'Arazzo (AT)";
+const addr1Link = "https://goo.gl/maps/J9anX6KvHAYw4kD46";
+const addr2 = "Via Giuseppe Ferrero 12, Asti (AT)";
+const addr2Link = "https://goo.gl/maps/rMtqjUT4EiQFFVcf9";
+const email = "paoloserninift@gmail.com";
+
+const phoneLink = (() => {
+    return "+39" + phone.replaceAll(" ", "");
+})();
+---
+
+<!-- Need to specify height or it overlows to fill the whole screen -->
+<footer class="footer p-10 bg-neutral text-neutral-content h-min">
+    <div>
+        <Icon name="mdi:map-search" class="h-20 w-20"/>
+        <a href={addr1Link} class="link link-primary">
+            {addr1}
+        </a>
+        <a href={addr2Link} class="link link-primary">
+            {addr2}
+        </a>
+    </div>
+
+    <div class="mx-auto">
+        <span class="footer-title">Social</span>
+        <div class="grid grid-flow-col gap-4">
+            <a href="">
+                <Icon name="ic:baseline-facebook" class="h-8 w-8" />
+            </a>
+            <a href="">
+                <Icon name="mdi:instagram" class="h-8 w-8" />
+            </a>
+            <a href="">
+                <Icon name="mdi:twitter" class="h-8 w-8" />
+            </a>
+            <a href="">
+                <Icon name="mdi:facebook-messenger" class="h-8 w-8" />
+            </a>
+        </div>
+    </div>
+
+    <div class="mx-auto">
+        <span class="footer-title">Contatti</span>
+        <div class="grid grid-flow-col gap-4">
+            <a href={"tel:" + phoneLink}>
+                <Icon name="bytesize:telephone" class="h-8 w-8" />
+            </a>
+            <a href={"https://wa.me/" + phoneLink}>
+                <Icon name="ic:baseline-whatsapp" class="h-8 w-8" />
+            </a>
+
+            <a class="my-auto link link-primary" href={"tel:" + phoneLink}>
+                {phone}
+            </a>
+        </div>
+        <a class="grid grid-flow-col gap-4" href={"mailto:"+email}>
+            <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
+            
+            <div class="my-auto link link-primary">
+                {email}
+            </div>
+        </a>
+    </div>
+</footer>

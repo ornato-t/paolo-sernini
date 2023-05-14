@@ -20,6 +20,8 @@ const { title } = Astro.props;
 		<meta name="msapplication-TileColor" content="#2b5797">
 		<meta name="theme-color" content="#ffffff">
 
+		<meta name="format-detection" content="telephone=no">
+
 		<title>{title}</title>
 	</head>
 	<body>
@@ -33,9 +35,12 @@ const { title } = Astro.props;
         overflow-y: scroll;
         height: 100vh;
     }
-    .scrollable > * {
+    .scrollable > div {
         height: 100vh;
         scroll-snap-align: start;
+    }
+    .scrollable > footer {
+        scroll-snap-align: end;
     }
 	[astro-icon] {
         width: 4rem;
