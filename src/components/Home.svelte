@@ -13,7 +13,7 @@
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">{name}</h1>
         <p class="mb-5">{description}</p>
-        <button class="btn btn-primary">Scopri</button>
+        <a class="btn btn-primary" href="#facilitatore">Scopri</a>
       </div>
     </div>
 </div>
@@ -24,7 +24,7 @@
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">{name}</h1>
         <p class="mb-5">{quote}</p>
-        <button class="btn btn-primary">Scopri</button>
+        <a class="btn btn-primary" href="#facilitatore">Scopri</a>
       </div>
     </div>
 </div>
@@ -35,7 +35,7 @@
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">{name}</h1>
         <p class="mb-5">{description}</p>
-        <button class="btn btn-primary">Scopri</button>
+        <a class="btn btn-primary" href="#facilitatore">Scopri</a>
       </div>
     </div>
 </div>
@@ -46,7 +46,7 @@
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">{name}</h1>
         <p class="mb-5">{quote}</p>
-        <button class="btn btn-primary">Scopri</button>
+        <a class="btn btn-primary" href="#facilitatore">Scopri</a>
       </div>
     </div>
 </div>
@@ -90,7 +90,7 @@
       <div>
         <h1 class="text-5xl font-bold">{name}</h1>
         <p class="py-6">{quote}</p>
-        <button class="btn btn-primary">Scopri</button>
+        <a class="btn btn-primary" href="#facilitatore">Scopri</a>
       </div>
     </div>
 </div>
