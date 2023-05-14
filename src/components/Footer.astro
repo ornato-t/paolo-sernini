@@ -30,30 +30,30 @@ const phoneLink = (() => {
     </div>
 
     <div class="mx-auto">
-        <span class="footer-title">Social</span>
+        <span class="footer-title pl-4">Social</span>
         <div class="grid grid-flow-col gap-4">
-            <a href={facebook}>
+            <a href={facebook} class="btn btn-ghost">
                 <Icon name="ic:baseline-facebook" class="h-8 w-8" />
             </a>
-            <a href={instagram}>
+            <a href={instagram} class="btn btn-ghost">
                 <Icon name="mdi:instagram" class="h-8 w-8" />
             </a>
-            <a href={twitter}>
+            <a href={twitter} class="btn btn-ghost">
                 <Icon name="mdi:twitter" class="h-8 w-8" />
             </a>
-            <a href={messenger}>
+            <a href={messenger} class="btn btn-ghost">
                 <Icon name="mdi:facebook-messenger" class="h-8 w-8" />
             </a>
         </div>
     </div>
 
     <div class="mx-auto">
-        <span class="footer-title">Contatti</span>
+        <span class="footer-title pl-4">Contatti</span>
         <div class="grid grid-flow-col gap-4">
-            <a href={"tel:" + phoneLink}>
+            <a href={"tel:" + phoneLink} class="btn btn-ghost">
                 <Icon name="bytesize:telephone" class="h-8 w-8" />
             </a>
-            <a href={"https://wa.me/" + phoneLink}>
+            <a href={"https://wa.me/" + phoneLink} class="btn btn-ghost">
                 <Icon name="ic:baseline-whatsapp" class="h-8 w-8" />
             </a>
 
@@ -62,7 +62,9 @@ const phoneLink = (() => {
             </a>
         </div>
         <a class="grid grid-flow-col gap-4" href={"mailto:"+email}>
-            <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
+            <span class="btn btn-ghost">
+                <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
+            </span>
             
             <div class="my-auto link link-primary">
                 {email}
