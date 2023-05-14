@@ -10,7 +10,7 @@
 <span id="facilitatore"/>
 
 <div class="hero min-h-screen bg-[url(./therapy.webp)]">
-    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-overlay bg-opacity-70"></div>
     <div class="hero-content text-start text-neutral-content shadow-lg">
       <div class="max-w-xl">
         <h1 class="mb-5 text-5xl font-bold text-center">{heading1} <span class="text-secondary">{heading2}</span>{heading3}</h1>
