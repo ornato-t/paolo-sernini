@@ -1,22 +1,9 @@
----    
-    import { Icon } from 'astro-icon';
-
+<script lang="ts">
     const name = 'Paolo Sernini';
     const quote = '"La risoluzione di un problema parte sempre dalla sua comprensione"';
     const description = "Un professionista che, attraverso competenze trasversali alla medicina tradizionale, si colloca nei percorsi terapeutici con il compito di delucidare e potenziare l'efficacia psifofisica del percorso stesso.";
----
+</script>
 <div class="hero">
-    <!-- <div class="place-self-start">
-        <Icon name="mdi:menu" />
-
-        <ul class="pl-3">
-            <li>Home</li>
-            <li>Facilitatore terapeutico</li>
-            <li>Pubblicazioni</li>
-            <li>Contatti</li>
-        </ul>
-    </div> -->
-
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
@@ -25,10 +12,6 @@
         <button class="btn btn-primary">Scopri</button>
       </div>
     </div>
-
-    <!-- <div class="place-self-end my-6 mr-4">
-        Partita IVA: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </div> -->
 </div>
 
 <div class="hero">
