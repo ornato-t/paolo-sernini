@@ -6,7 +6,6 @@
     const explanation = 'Il facilitatore terapeutico è una figura pazza che fa cose altrettanto pazze. Ho bisogno di inserire testo a caso. Lorem ipsum dolor sit amet.'
 </script>
 
-<!-- TODO: add this to the chosen component -->
 <span id="facilitatore"/>
 
 <div class="hero min-h-screen bg-[url(/therapy.webp)]">
