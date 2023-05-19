@@ -9,7 +9,7 @@
 <!-- TODO: add this to the chosen component -->
 <span id="facilitatore"/>
 
-<div class="hero min-h-screen bg-[url(./therapy.webp)]">
+<div class="hero min-h-screen bg-[url(/therapy.webp)]">
     <div class="hero-overlay bg-opacity-70"></div>
     <div class="hero-content text-start text-neutral-content shadow-lg">
       <div class="max-w-xl">
@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="bg-[url(./therapy.webp)] bg-no-repeat bg-cover pt-12 pb-6">
+<div class="bg-[url(/therapy.webp)] bg-no-repeat bg-cover pt-12 pb-6">
     <div class="mx-auto w-1/3 h-full bg-base-100 rounded-3xl" >
         <h1 class="text-4xl font-bold pt-6 px-8">
             {heading1} <span class="text-secondary">{heading2}</span>{heading3}
