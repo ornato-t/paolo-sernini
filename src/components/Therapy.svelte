@@ -23,17 +23,3 @@
       </div>
     </div>
 </div>
-
-<div class="bg-[url(/therapy.webp)] bg-no-repeat bg-cover pt-12 pb-6">
-    <div class="mx-auto w-1/3 h-full bg-base-100 rounded-3xl" >
-        <h1 class="text-4xl font-bold pt-6 px-8">
-            {heading1} <span class="text-secondary">{heading2}</span>{heading3}
-        </h1>
-        <ul class="mt-8 ml-12 list-disc text-lg">
-            {#each points as point}
-                <li>{point}</li>
-            {/each}
-        </ul>
-        <p class="mt-5 mx-6">{explanation}</p>
-    </div>
-</div>
