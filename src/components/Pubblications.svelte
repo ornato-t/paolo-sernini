@@ -38,12 +38,12 @@
 <span id="pubblicazioni"/>
 
 <div class="hero min-h-screen bg-[url(/library.webp)]">
-    <div class="hero-overlay bg-opacity-80"></div>
-    <div class="hero-content text-start text-neutral-content shadow-lg">
+    <div class="hero-overlay bg-opacity-70"></div>
+    <div class="hero-content text-start text-neutral-content gradient">
       <div class="max-w-xl">
         <h1 class="mb-5 text-5xl font-bold text-center">{heading}</h1>
         <ul class="mb-5 ml-12 list-disc text-lg">
-            {#each books as book}
+            {#each books.reverse() as book}
             <li>
                 {#if book.link !== ""}
                     <a href={book.link} class="link text-xl">
@@ -69,7 +69,13 @@
             </li>
             {/each}
         </ul>
-        <p class="mb-5 mt-6">{subtitle1}<a class="link link-primary" href="">{subtitleLink}</a>{subtitle2}</p>
+        <p class="mb-5 mt-6">{subtitle1}<a class="link link-primary" href="/scrittura">{subtitleLink}</a>{subtitle2}</p>
       </div>
     </div>
 </div>
+
+<style>
+    .gradient {
+        background: radial-gradient(circle at center, rgba(0,0,0,0.3), rgba(0,0,0,0));
+    }
+</style>
