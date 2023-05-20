@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
-import Home from '../components/Home.svelte';
+import Home from '../components/Home.astro';
 import Therapy from '../components/Therapy.svelte';
 import Pubblications from '../components/Pubblications.svelte';
 import Footer from '../components/Footer.astro';
@@ -9,7 +9,7 @@ import Footer from '../components/Footer.astro';
 <Layout title="Paolo Sernini - facilitatore terapeutico">
 	<Navbar/>
 	<main class="scrollable">
-		<Home/>
+		<Home client:load/>
 		<Therapy/>
 		<Pubblications/>
 		<Footer/>
