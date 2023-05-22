@@ -1,7 +1,8 @@
-# La Divina Commedia
-
-## Canto I
-
+---
+layout: ../../../layouts/Post.astro
+title: "La Divina Commedia"
+date: "22/05/2023"
+---
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,
 ché la diritta via era smarrita.

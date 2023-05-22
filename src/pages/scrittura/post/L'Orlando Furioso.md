@@ -1,7 +1,8 @@
-# L'Orlando Furioso
-
-## Canto XXXIV
-
+---
+layout: ../../../layouts/Post.astro
+title: "L'Orlando Furioso"
+date: "22/05/2023"
+---
 70
      Tutta la sfera varcano del fuoco,
 et indi vanno al regno de la luna.
