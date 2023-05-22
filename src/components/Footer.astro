@@ -31,17 +31,17 @@ const phoneLink = (() => {
 
     <div class="lg:mx-auto">
         <span class="footer-title pl-4">Social</span>
-        <div class="grid grid-flow-col gap-4">
-            <a href={facebook} class="btn btn-ghost">
+        <div class="grid grid-flow-col gap-4 w-min">
+            <a href={facebook} class="lg:btn lg:btn-ghost">
                 <Icon name="ic:baseline-facebook" class="h-8 w-8" />
             </a>
-            <a href={instagram} class="btn btn-ghost">
+            <a href={instagram} class="lg:btn lg:btn-ghost">
                 <Icon name="mdi:instagram" class="h-8 w-8" />
             </a>
-            <a href={twitter} class="btn btn-ghost">
+            <a href={twitter} class="lg:btn lg:btn-ghost">
                 <Icon name="mdi:twitter" class="h-8 w-8" />
             </a>
-            <a href={messenger} class="btn btn-ghost">
+            <a href={messenger} class="lg:btn lg:btn-ghost">
                 <Icon name="mdi:facebook-messenger" class="h-8 w-8" />
             </a>
         </div>
@@ -50,10 +50,10 @@ const phoneLink = (() => {
     <div class="lg:mx-auto">
         <span class="footer-title pl-4">Contatti</span>
         <div class="grid grid-flow-col gap-4">
-            <a href={"tel:" + phoneLink} class="btn btn-ghost">
+            <a href={"tel:" + phoneLink} class="lg:btn lg:btn-ghost">
                 <Icon name="bytesize:telephone" class="h-8 w-8" />
             </a>
-            <a href={"https://wa.me/" + phoneLink} class="btn btn-ghost">
+            <a href={"https://wa.me/" + phoneLink} class="lg:btn lg:btn-ghost">
                 <Icon name="ic:baseline-whatsapp" class="h-8 w-8" />
             </a>
 
@@ -61,8 +61,8 @@ const phoneLink = (() => {
                 {phone}
             </a>
         </div>
-        <a class="grid grid-flow-col gap-4" href={"mailto:"+email}>
-            <span class="btn btn-ghost">
+        <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email}>
+            <span class="lg:btn lg:btn-ghost">
                 <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
             </span>
             
