@@ -1,5 +1,7 @@
 ---
 layout: ../../../layouts/Post.astro
+title: "La Divina Commedia"
+date: "2023-05-22T16:48:08.228Z"
 ---
 Nel mezzo del cammin di nostra vita
 mi ritrovai per una selva oscura,

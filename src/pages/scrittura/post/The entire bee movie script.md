@@ -1,5 +1,7 @@
 ---
 layout: ../../../layouts/Post.astro
+title: "The entire bee movie script"
+date: "2023-05-22T16:00:08.228Z"
 ---
 According to all known laws
 of aviation,

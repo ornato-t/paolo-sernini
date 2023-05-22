@@ -1,5 +1,7 @@
 ---
 layout: ../../../layouts/Post.astro
+title: "L'Orlando Furioso"
+date: "2023-05-22T16:20:08.228Z"
 ---
 70
      Tutta la sfera varcano del fuoco,
