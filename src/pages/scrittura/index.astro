@@ -3,13 +3,14 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import PostList from '../../components/PostList.svelte';
+import posts from "./posts.json";
 ---
 <Layout title="Paolo Sernini - facilitatore terapeutico">
 	<Navbar/>
 	
     <main class="min-h-[100vh] pt-16">
 
-        <PostList/>
+        <PostList {posts}/>
 
     </main>
 
