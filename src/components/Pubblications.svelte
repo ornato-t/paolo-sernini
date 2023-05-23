@@ -38,7 +38,7 @@
 <span id="pubblicazioni"/>
 
 <div class="hero min-h-screen bg-[url(/library.webp)]">
-    <div class="hero-overlay bg-opacity-70"></div>
+    <div class="hero-overlay bg-opacity-80"></div>
     <div class="hero-content text-start text-neutral-content gradient">
       <div class="max-w-xl">
         <h1 class="mb-5 text-5xl font-bold text-center">{heading}</h1>
@@ -46,19 +46,19 @@
             {#each books.reverse() as book}
             <li>
                 {#if book.link !== ""}
-                    <a href={book.link} class="link text-xl">
+                    <a href={book.link} class="link text-xl font-bold">
                         {book.title}
                     </a>
                     {#if book.description !== ""}
                         <br>
-                        <span class="text-sm pl-4">
+                        <div class="text-sm pl-4">
                                 {book.description}
-                        </span>
+                        </div>
                     {/if}
                 {:else}
-                    <span class="text-xl">
+                    <div class="text-xl font-bold">
                         {book.title}
-                    </span>
+                    </div>
                     {#if book.description !== ""}
                         <br>
                         <span class="text-sm pl-4">

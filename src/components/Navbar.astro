@@ -5,12 +5,14 @@ import { Icon } from "astro-icon";
 <script>
     const home = document.querySelectorAll('[data-home-button]');
     const ft = document.querySelector('[data-ft-button]');
+    const bio = document.querySelector('[data-bio-button]');
     const pub = document.querySelector('[data-pub-button]');
     const write = document.querySelector('[data-write-button]');
     const cont = document.querySelector('[data-cont-button]');
 
     home.forEach(el => el.addEventListener('click', () => smoothLink('#home', '/')));
     ft?.addEventListener('click', () => smoothLink('#facilitatore', '/'));
+    bio?.addEventListener('click', () => smoothLink('#bio', '/'));
     pub?.addEventListener('click', () => smoothLink('#pubblicazioni', '/'));
     write?.addEventListener('click', () => smoothLink('', '/scrittura'));
     cont?.addEventListener('click', () => smoothLink('#contacts', '/'));
@@ -35,6 +37,7 @@ import { Icon } from "astro-icon";
             <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-60 mt-4">
               <li><a data-home-button onclick="document.activeElement.blur()">Home</a></li> 
               <li><a data-ft-button onclick="document.activeElement.blur()">Facilitatore Terapeutico</a></li>
+              <li><a data-bio-button onclick="document.activeElement.blur()">Biografia</a></li>
               <li><a data-pub-button onclick="document.activeElement.blur()">Pubblicazioni</a></li>
               <li><a data-write-button onclick="document.activeElement.blur()">Scrittura</a></li>
               <li><a data-cont-button onclick="document.activeElement.blur()">Contatti</a></li>

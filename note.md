@@ -54,3 +54,21 @@ Logo
 - luce verde a generatore sito con astro (markdown)
 - a scelta scorrimento su stessa pagina o pagine diverse, preferibilmente stessa pagina
 - cercare di mettere dettagli color oro sulle scritte (ew cringe) o altrove, "fa molto oriente"
+
+
+
+# Aggiornamenti
+## Cosa fa
+Aspettare testo da Paolo
+## Pubblicazioni
+Togliere "giocare a fare i grandi" e "fratelli"
+## Footer
+Rendere icona mappa cliccabile (bottone a via valgelata)
+
+## Chi
+Chi è Paolo Sernini ...?
+-   aspettare testo da Paolo
+mobile: spostare immagine sfondo, due immagini diverse
+- crop detail (remove qualunque schifo sia)
+- ph: fix saturation in bg4
+- remove junk pics and convert to webp
