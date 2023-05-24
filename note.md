@@ -60,8 +60,7 @@ Logo
 # Aggiornamenti
 ## Cosa fa
 Aspettare testo da Paolo
-## Pubblicazioni
-Togliere "giocare a fare i grandi" e "fratelli"
+
 ## Footer
 Rendere icona mappa cliccabile (bottone a via valgelata)
 
@@ -72,3 +71,6 @@ mobile: spostare immagine sfondo, due immagini diverse
 - crop detail (remove qualunque schifo sia)
 - ph: fix saturation in bg4
 - remove junk pics and convert to webp
+
+# Scrittura
+- grid cols 1 on mobile, grid cols 3 on lg

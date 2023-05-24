@@ -13,14 +13,14 @@
     }
 </script>
 
-<div class="grid grid-flow-col gap-6 p-8">
+<div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 gap-8 p-8">
     {#each posts as post}
-        <div class="card w-96 bg-primary text-primary-content shadow-xl">
+        <div class="card max-w-96 bg-primary text-primary-content shadow-xl">
             <div class="card-body">
             <h2 class="card-title">{post.title}</h2>
             <p>Ultima modifica: {new Date(post.date).toLocaleString('it-IT')}</p>
             <div class="card-actions justify-end">
-                <a class="btn btn-secondary" href="/scrittura/post/{post.title}">Leggi</a>
+                <a class="btn btn-secondary btn-wide lg:w-fit mx-auto lg:mx-0 mt-6" href="/scrittura/post/{post.title}">Leggi</a>
             </div>
             </div>
         </div>
