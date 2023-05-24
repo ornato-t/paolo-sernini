@@ -2,14 +2,6 @@
     const heading = 'Pubblicazioni';
     const books = [
         {
-            title: "Fratelli",
-            description: "",
-            link: "",
-        }, {
-            title: "Giocare a fare i grandi",
-            description: "",
-            link: "",
-        }, {
             title: "Rursus",
             description: "Approccio teorico alla \"Teoria del Loop\"",
             link: "https://amzn.eu/d/1iJt553",
