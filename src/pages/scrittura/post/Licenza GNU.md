@@ -4,7 +4,7 @@ layout: ../../../layouts/Post.astro
 
 title: "Licenza GNU"
 
-date: "2023-05-23T18:09:30+02:00"
+date: "2023-05-24T08:52:17+02:00"
 
 ---
 
