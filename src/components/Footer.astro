@@ -20,7 +20,9 @@ const phoneLink = (() => {
 <!-- Need to specify height or it overlows to fill the whole screen -->
 <footer class="footer p-10 bg-neutral text-neutral-content h-min" id="contacts">
     <div>
-        <Icon name="mdi:map-search" class="h-20 w-20"/>
+        <a href={addr1Link} class="btn btn-ghost h-fit -ml-4">
+            <Icon name="mdi:map-search" class="h-20 w-20"/>
+        </a>
         <a href={addr1Link} class="link link-primary">
             {addr1}
         </a>

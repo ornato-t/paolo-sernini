@@ -61,10 +61,6 @@ Logo
 ## Cosa fa
 Aspettare testo da Paolo
 
-## Footer
-Rendere icona mappa cliccabile (bottone a via valgelata)
-
 ## Chi
 Chi è Paolo Sernini ...?
--   aspettare testo da Paolo
--   
+Aspettare testo da Paolo
