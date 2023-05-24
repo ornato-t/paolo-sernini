@@ -67,10 +67,4 @@ Rendere icona mappa cliccabile (bottone a via valgelata)
 ## Chi
 Chi è Paolo Sernini ...?
 -   aspettare testo da Paolo
-mobile: spostare immagine sfondo, due immagini diverse
-- crop detail (remove qualunque schifo sia)
-- ph: fix saturation in bg4
-- remove junk pics and convert to webp
-
-# Scrittura
-- grid cols 1 on mobile, grid cols 3 on lg
+-   
