@@ -13,7 +13,7 @@ const { frontmatter } = Astro.props;
         <h1 class="text-2xl mb-4">
             <span class="italic">{frontmatter.title}</span>
         </h1>
-        <p class="text-sm mb-4">Scritto il: {new Date(frontmatter.date).toLocaleString()}</p>
+        <p class="text-sm mb-4">Scritto il: {new Date(frontmatter.date).toLocaleString('it-IT')}</p>
         <div class="ml-1">
             <slot />
         </div>
