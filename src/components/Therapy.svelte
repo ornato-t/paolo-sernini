@@ -29,21 +29,31 @@
 <div class="hero min-h-screen bg-[url(/therapy.webp)]">
 <!-- <div class="hero min-h-screen"> -->
     <div class="hero-overlay bg-opacity-70"></div>
-    <div class="hero-content text-start text-neutral-content shadow-lg">
-      <div class="max-w-full lg:max-w-4xl">
-        <h1 class="mb-2 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
+    <div class="hero-content text-start text-neutral-content">
+      <div class="max-w-full lg:max-w-6xl">
+        <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
           Di che cosa si occupa un 
           <span class="text-secondary">facilitatore terapeutico</span>
           ?
         </h1>
-        <ul class="mb-5 ml-6 list-disc text-sm lg:text-base">
-            {#each points as point}
-                <li>
-                    <span class="font-semibold">{point.bold}</span>
-                    <span>{point.normal}</span>
-                </li>
+
+        <div class="bg-secondary bg-opacity-20 rounded-xl mt-2 mb-6">
+            <input type="radio" name="accordion" class="hidden"/>
+
+            {#each points as point, i}
+            <div class="collapse collapse-arrow">
+                <!-- <input type="radio" name="accordion" checked={i == 0 ? 'true' : ''} />  -->
+                <input type="radio" name="accordion"/> 
+                <div class="collapse-title lg:text-xl font-semibold">
+                    {point.bold}
+                </div>
+                <div class="collapse-content text-sm lg:text-base"> 
+                    <p>{point.normal}</p>
+                </div>
+            </div>
             {/each}
-        </ul>
+        </div>
+
         <p class="mb-5 text-justify">
             Il Facilitatore Terapeutico, quindi, va ad assolvere al ruolo del 
             <span class="italic">"maestro"</span>, istruendo, correggendo e accompagnando la persona nel suo personale percorso di 
