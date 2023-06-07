@@ -37,14 +37,14 @@
           ?
         </h1>
 
-        <div class="bg-secondary bg-opacity-20 rounded-xl mt-2 mb-6">
+        <div class="border-secondary border-2 join join-vertical rounded-xl mt-2 mb-6">
             <input type="radio" name="accordion" class="hidden"/>
 
             {#each points as point, i}
-            <div class="collapse collapse-arrow">
+            <div class="collapse collapse-arrow join-item border-secondary border-b">
                 <!-- <input type="radio" name="accordion" checked={i == 0 ? 'true' : ''} />  -->
                 <input type="radio" name="accordion"/> 
-                <div class="collapse-title lg:text-xl font-semibold">
+                <div class="collapse-title lg:text-xl font-semibold py-2">
                     {point.bold}
                 </div>
                 <div class="collapse-content text-sm lg:text-base"> 
