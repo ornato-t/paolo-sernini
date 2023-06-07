@@ -1,20 +1,20 @@
 <script lang="ts">
   const points = [
     {
-      bold: 'Migliorare la comprensione dei percorsi terapeutici intrapresi',
+      bold: 'Migliora la comprensione dei percorsi terapeutici intrapresi',
       normal: 'attraverso la cura dell’aspetto psicofisico.',
     }, {
-      bold: 'Promuovere un corretto stile di vita',
+      bold: 'Promuove un corretto stile di vita',
       normal: 'andando a lavorare sulla prevenzione delle principali problematiche matrici di disequilibri patologici.',
     }, {
-      bold: 'Istruire e accompagnare nella scoperta del proprio stato di stress',
-      normal: 'cercando di catturare e insegnare a catturare quelle che sono le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
+      bold: 'Istruisce e accompagnare nella scoperta del proprio stato di stress',
+      normal: 'cercando di catturare le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
     }, {
-      bold: 'Offrire percorsi terapeutici complementari',
-      normal: 'basandosi sull’analisi della patologia cronica non come un semplice problema chimico, ma come un più complesso intreccio di disequilibri psico-fisiologici.',
+      bold: 'Offre percorsi terapeutici complementari',
+      normal: 'considerando la malattia cronica non come un problema chimico, ma come un intreccio di disequilibri psico-fisiologici',
     }, {        
-      bold: 'Creare una connessione e una vicinanza con il soggetto',
-      normal: 'al fine di poter analizzare in profondità quelle che sono le radici di eventuali cronicizzazioni delle patologie.',
+      bold: 'Crea una connessione e una vicinanza con il soggetto',
+      normal: 'al fine di poter analizzare in profondità le radici di eventuali cronicizzazioni delle patologie.',
     }
   ] satisfies point[];
 
@@ -27,6 +27,7 @@
 <span id="facilitatore"/>
 
 <div class="hero min-h-screen bg-[url(/therapy.webp)]">
+<!-- <div class="hero min-h-screen"> -->
     <div class="hero-overlay bg-opacity-70"></div>
     <div class="hero-content text-start text-neutral-content shadow-lg">
       <div class="max-w-full lg:max-w-4xl">
@@ -37,14 +38,17 @@
         </h1>
         <ul class="mb-5 ml-6 list-disc text-sm lg:text-base">
             {#each points as point}
-                <li><span class="font-semibold">{point.bold}</span> <span>{point.normal}</span></li>
+                <li>
+                    <span class="font-semibold">{point.bold}</span>
+                    <span>{point.normal}</span>
+                </li>
             {/each}
         </ul>
-        <p class="mb-5">
-            Il Facilitatore Terapeutico, quindi, va ad assolvere a quello che è il ruolo del 
+        <p class="mb-5 text-justify">
+            Il Facilitatore Terapeutico, quindi, va ad assolvere al ruolo del 
             <span class="italic">"maestro"</span>, istruendo, correggendo e accompagnando la persona nel suo personale percorso di 
-            <span class="font-bold uppercase">guarigione</span>, congiuntamente, o meno, al lavoro di altri specialisti del settore sanitario che assolvono al compito della 
-            <span class="font-bold uppercase">cura</span>.
+            <span class="font-bold">guarigione</span>, congiuntamente, o meno, al lavoro di altri specialisti del settore sanitario che assolvono al compito della 
+            <span class="font-bold">cura</span>.
         </p>
       </div>
     </div>
