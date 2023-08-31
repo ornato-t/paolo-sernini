@@ -7,13 +7,14 @@
 </script>
 
 <span id="bio"/>
+<div class="bg-sky-400">
 
-<div class="hero bg-[url(/bioBg.webp)] ">
-    <div class="hero-overlay bg-opacity-60"></div>
-    <div class="hero-content text-neutral-content flex-col lg:flex-row">
+<div class="hero bg-[url(/bioBg.webp)] h-full" style="  mask-image: linear-gradient(to bottom, transparent, black 40%);">
+    <div class="hero-overlay bg-opacity-20"></div>
+    <div class="hero-content text-slate-700 flex-col lg:flex-row">
       <img src="/bioDetail.webp" class="mt-10 max-w-[10rem] sm:max-w-xs rounded-lg shadow-2xl" alt="logo"/>
       <div class="max-w-4xl">
-        <h1 class="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4">Chi è <span class="text-primary">Paolo Sernini</span> ?</h1>
+        <h1 class="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4">Chi è <span class="text-red-500">Paolo Sernini</span> ?</h1>
         <div class="text-md lg:w-5/6 text-justify">
             {#each description as paragraph}
                 <p class="mb-3 lg:mb-5">
@@ -23,4 +24,5 @@
       </div >
       </div>
     </div>
+</div>
 </div>

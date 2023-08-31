@@ -2,18 +2,19 @@
     const heading = 'Pubblicazioni';
     const books = [
         {
-            title: "Rursus",
-            description: "Approccio teorico alla \"Teoria del Loop\"",
-            link: "https://amzn.eu/d/1iJt553",
-        }, {
             title: "L'anti-natura",
             description: "",
             link: "https://www.gruppoalbatros.com/prodotti/lanti-natura-paolo-sernini/",
         }, {
+            title: "Rursus",
+            description: "Approccio teorico alla \"Teoria del Loop\"",
+            link: "https://amzn.eu/d/1iJt553",
+        }, {
             title: "Iâlölâl",
             description: "Magistrali allegorie e viziose approssimazioni di una coscienza alla ricerca della Luce",
             link: "https://amzn.eu/d/emITAgD",
-        },
+            
+        }, 
     ] satisfies book[];
 
     const subtitle1 = 'Prima di essere stampate, molte opere vengono pubblicate nella sezione ';

@@ -26,14 +26,12 @@
 
 <span id="facilitatore"/>
 
-<div class="hero min-h-screen bg-[url(/therapy.webp)]">
-<!-- <div class="hero min-h-screen"> -->
-    <div class="hero-overlay bg-opacity-70"></div>
+<div class="hero min-h-screen bg-gradient-to-b from-indigo-400 to-sky-400">
     <div class="hero-content text-start text-neutral-content">
       <div class="max-w-full lg:max-w-7xl">
         <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
           In cosa può esserti utile un 
-          <span class="text-secondary">facilitatore terapeutico</span>
+          <span class="text-amber-400">facilitatore terapeutico</span>
           ?
         </h1>
 
@@ -50,7 +48,7 @@
             {/each}
         </div>
 
-        <div class="mb-5 text-justify lg:px-10">
+        <div class="mb-5 text-justify lg:px-10 lg:mt-12">
           <h2 class="font-semibold text-xl md:text-2xl">
             Collocazione deontologica
           </h2>
