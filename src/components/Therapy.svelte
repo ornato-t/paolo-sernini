@@ -35,19 +35,32 @@
           ?
         </h1>
 
-        <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-6">
-            {#each points as point}
+        <!-- Mobile (borders) -->
+        <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-6 md:hidden">
+          {#each points as point}
             <div class="collapse collapse-arrow join-item border-rose-400 border-b">
-                <input type="radio" name="accordion"/> 
-                <div class="collapse-title lg:text-xl font-semibold py-2">
-                    {point.bold}
-                </div>
-                <div class="collapse-content text-sm lg:text-base"> 
-                    <p>{point.normal}</p>
-                </div>
+              <input type="radio" name="accordion"/> 
+              <div class="collapse-title lg:text-xl font-semibold py-2">
+                {point.bold}
+              </div>
+              <div class="collapse-content text-sm lg:text-base"> 
+                <p>{point.normal}</p>
+              </div>
             </div>
-            {/each}
+          {/each}
         </div>
+        
+        <!-- Desktop -->
+        <ul class="rounded-xl mt-2 mb-8 pl-8 hidden md:block">
+          {#each points as point}
+            <div class="lg:text-xl font-semibold py-2">
+                {point.bold}
+            </div>
+            <div class="text-sm lg:text-base"> 
+                <p>{point.normal}</p>
+            </div>
+          {/each}
+        </ul>
 
         <p class="mb-5 text-justify">
             Il Facilitatore Terapeutico, quindi, va ad assolvere al ruolo del 
