@@ -7,10 +7,10 @@
 </script>
 
 <span id="bio"/>
-<div class="bg-sky-400">
+<div class="lg:bg-sky-300 bg-gradient-to-b from-sky-300 to-slate-200">
 
-<div class="hero bg-[url(/bioBg.webp)] h-full" style="  mask-image: linear-gradient(to bottom, transparent, black 40%);">
-    <div class="hero-overlay bg-opacity-20"></div>
+<div class="hero lg:bg-[url(/bioBg.webp)] mask h-full" style="">
+    <div class="lg:hero-overlay lg:bg-opacity-20"></div>
     <div class="hero-content text-slate-700 flex-col lg:flex-row">
       <img src="/bioDetail.webp" class="mt-10 max-w-[10rem] sm:max-w-xs rounded-lg shadow-2xl" alt="logo"/>
       <div class="max-w-4xl">
@@ -26,3 +26,11 @@
     </div>
 </div>
 </div>
+
+<style>
+    @media (min-width: 1024px){
+        .mask{
+            mask-image: linear-gradient(to bottom, transparent, black 40%);
+        }
+    }
+</style>

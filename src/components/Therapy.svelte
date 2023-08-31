@@ -7,7 +7,7 @@
       bold: 'Promuove un corretto stile di vita',
       normal: 'andando a lavorare sulla prevenzione delle principali problematiche matrici di disequilibri patologici.',
     }, {
-      bold: 'Istruisce e accompagnare nella scoperta del proprio stato di stress',
+      bold: 'Istruisce e accompagna nella scoperta del proprio stato di stress',
       normal: 'cercando di catturare le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
     }, {
       bold: 'Offre percorsi terapeutici complementari',
@@ -26,7 +26,7 @@
 
 <span id="facilitatore"/>
 
-<div class="hero min-h-screen bg-gradient-to-b from-cyan-200 to-indigo-400">
+<div class="hero min-h-screen bg-gradient-to-b from-cyan-200 to-indigo-300">
     <div class="hero-content text-start">
       <div class="max-w-full lg:max-w-6xl">
         <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
@@ -36,11 +36,8 @@
         </h1>
 
         <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-6">
-            <input type="radio" name="accordion" class="hidden"/>
-
-            {#each points as point, i}
+            {#each points as point}
             <div class="collapse collapse-arrow join-item border-rose-400 border-b">
-                <!-- <input type="radio" name="accordion" checked={i == 0 ? 'true' : ''} />  -->
                 <input type="radio" name="accordion"/> 
                 <div class="collapse-title lg:text-xl font-semibold py-2">
                     {point.bold}

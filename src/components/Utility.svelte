@@ -26,18 +26,18 @@
 
 <span id="facilitatore"/>
 
-<div class="hero min-h-screen bg-gradient-to-b from-indigo-400 to-sky-400">
-    <div class="hero-content text-start text-neutral-content">
+<div class="hero min-h-screen bg-gradient-to-b from-indigo-300 to-sky-300">
+    <div class="hero-content text-start text-base-content">
       <div class="max-w-full lg:max-w-7xl">
         <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
           In cosa può esserti utile un 
-          <span class="text-amber-400">facilitatore terapeutico</span>
+          <span class="text-yellow-300">facilitatore terapeutico</span>
           ?
         </h1>
 
         <div class="join-vertical lg:my-8 my-4 lg:px-16 px-3">
             {#each points as point}
-            <div class="list-disc pt-0.5">
+            <div class="list-disc pt-0.5 md:text-lg">
               <li>
                 <span class="font-bold">
                   {point.bold}
