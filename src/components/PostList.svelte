@@ -14,6 +14,18 @@
 </script>
 
 <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6 gap-8 p-8">
+    {#if posts.length === 0}
+        <h1 class="text-3xl">
+            Nessun risultato
+        </h1>
+        <p class="text-justify">
+            Al momento non ci sono opere o pubblicazioni da visualizzare.
+        </p>
+        <p class="text-justify">
+            Riprova tra qualche giorno. Non dimenticare di seguire i social di <span class="font-semibold">Paolo Sernini</span> per rimanere aggiornato su nuove pubblicazioni.
+        </p>
+    {/if}
+
     {#each posts as post}
         <div class="card max-w-96 bg-primary text-primary-content shadow-xl">
             <div class="card-body">
