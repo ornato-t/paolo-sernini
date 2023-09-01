@@ -31,22 +31,20 @@
       <div class="max-w-full lg:max-w-7xl">
         <h1 class="mb-2 lg:mb-4 lg:mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
           In cosa può esserti utile un 
-          <span class="text-yellow-300">facilitatore terapeutico</span>
+          <span class="text-yellow-200">facilitatore terapeutico</span>
           ?
         </h1>
 
-        <div class="join-vertical lg:my-8 my-4 lg:px-16 px-3">
-            {#each points as point}
-            <div class="list-disc pt-0.5 md:text-lg">
-              <li>
-                <span class="font-bold">
-                  {point.bold}
-                </span>
-                  {point.normal}
-              </li>
-            </div>
-            {/each}
-        </div>
+        <ul class="join-vertical lg:my-8 my-4 lg:px-16 px-3">
+          {#each points as point}
+            <li class="list-disc pt-0.5 md:text-lg">
+              <span class="font-bold">
+                {point.bold}
+              </span>
+                {point.normal}
+            </li>
+          {/each}
+        </ul>
 
         <div class="mb-5 text-justify lg:px-10 lg:mt-12">
           <h2 class="font-semibold text-xl md:text-2xl">

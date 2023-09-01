@@ -37,9 +37,9 @@
 
         <!-- Mobile (borders) -->
         <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-6 md:hidden">
-          {#each points as point}
+          {#each points as point, i}
             <div class="collapse collapse-arrow join-item border-rose-400 border-b">
-              <input type="radio" name="accordion"/> 
+              <input type="radio" name="accordion" aria-label="menu espandibile {i}"/> 
               <div class="collapse-title lg:text-xl font-semibold py-2">
                 {point.bold}
               </div>

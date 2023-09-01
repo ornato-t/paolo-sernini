@@ -20,24 +20,24 @@ const phoneLink = (() => {
 <!-- Need to specify height or it overlows to fill the whole screen -->
 <footer class="footer p-10 bg-neutral text-neutral-content h-min" id="contacts">
     <div>
-        <a href={addr1Link} class="btn btn-ghost h-fit -ml-4">
+        <a href={addr1Link} class="btn btn-ghost h-fit -ml-4" aria-label="studio principale, icona">
             <Icon name="mdi:map-search" class="h-20 w-20"/>
         </a>
-        <a href={addr1Link} class="link link-primary">
+        <a href={addr1Link} class="link link-primary" aria-label="studio principale, indirizzo">
             {addr1}
         </a>
-        <a href={addr2Link} class="link link-primary">
+        <a href={addr2Link} class="link link-primary" aria-label="studio secondario, indirizzo">
             {addr2}
         </a>
     </div>
 
     <div class="lg:mx-auto">
-        <span class="footer-title">sito web</span>
+        <span class="footer-title opacity-70">sito web</span>
         <div class="lg:w-3/5 grid grid-cols-3 gap-y-1.5">
             <p class="col-span-2">
-                Sviluppo e design a cura di <a class="link" href="https://github.com/ornato-t">Tommaso Ornato</a>.
+                Sviluppo e design a cura di <a class="link" href="https://github.com/ornato-t" aria-label="github">Tommaso Ornato</a>.
             </p>
-            <a href="https://github.com/ornato-t/paolo-sernini" class="lg:btn lg:btn-ghost w-min row-span-2 my-auto mx-auto lg:mx-0">
+            <a href="https://github.com/ornato-t/paolo-sernini" class="lg:btn lg:btn-ghost w-min row-span-2 my-auto mx-auto lg:mx-0" aria-label="repository github">
                 <Icon name="mdi:github" class="h-14 w-14" />
             </a>            
             <p class="col-span-2">
@@ -47,43 +47,43 @@ const phoneLink = (() => {
     </div>
 
     <div class="lg:mx-auto">
-        <span class="footer-title pl-4">Social</span>
+        <span class="footer-title pl-4 opacity-70">Social</span>
         <div class="grid grid-flow-col gap-4 w-min">
-            <a href={facebook} class="lg:btn lg:btn-ghost">
+            <a href={facebook} class="lg:btn lg:btn-ghost" aria-label="facebook">
                 <Icon name="ic:baseline-facebook" class="h-8 w-8" />
             </a>
-            <a href={instagram} class="lg:btn lg:btn-ghost">
+            <a href={instagram} class="lg:btn lg:btn-ghost" aria-label="instagram">
                 <Icon name="mdi:instagram" class="h-8 w-8" />
             </a>
-            <a href={twitter} class="lg:btn lg:btn-ghost">
+            <a href={twitter} class="lg:btn lg:btn-ghost" aria-label="twitter">
                 <Icon name="mdi:twitter" class="h-8 w-8" />
             </a>
-            <a href={messenger} class="lg:btn lg:btn-ghost">
+            <a href={messenger} class="lg:btn lg:btn-ghost" aria-label="facebook messenger">
                 <Icon name="mdi:facebook-messenger" class="h-8 w-8" />
             </a>
         </div>
     </div>
 
     <div class="lg:mx-auto">
-        <span class="footer-title pl-4">Contatti</span>
+        <span class="footer-title pl-4 opacity-70">Contatti</span>
         <div class="grid grid-flow-col gap-4">
-            <a href={"tel:" + phoneLink} class="lg:btn lg:btn-ghost">
+            <a href={"tel:" + phoneLink} class="lg:btn lg:btn-ghost" aria-label="telefono, icona">
                 <Icon name="bytesize:telephone" class="h-8 w-8" />
             </a>
-            <a href={"https://wa.me/" + phoneLink} class="lg:btn lg:btn-ghost">
+            <a href={"https://wa.me/" + phoneLink} class="lg:btn lg:btn-ghost" aria-label="whatsapp">
                 <Icon name="ic:baseline-whatsapp" class="h-8 w-8" />
             </a>
 
-            <a class="my-auto link link-primary" href={"tel:" + phoneLink}>
+            <a class="my-auto link link-primary" href={"tel:" + phoneLink} aria-label="telefono, numero">
                 {phone}
             </a>
         </div>
-        <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email}>
+        <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email} aria-label="email">
             <span class="lg:btn lg:btn-ghost">
                 <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
             </span>
             
-            <div class="my-auto link link-primary">
+            <div class="my-auto link link-neutral">
                 {email}
             </div>
         </a>
