@@ -35,21 +35,21 @@ import { Icon } from "astro-icon";
                 <Icon name="mdi:menu" class="h-1/2" />
             </label>
             <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 text-base-content rounded-box w-60">
-              <li><a data-home-button onclick="document.activeElement.blur();">Home</a></li> 
-              <li><a data-ft-button onclick="document.activeElement.blur();">Facilitatore Terapeutico</a></li>
-              <li><a data-ut-button onclick="document.activeElement.blur();">Percorsi Terapeutici</a></li>
-              <li><a data-bio-button onclick="document.activeElement.blur();">Biografia</a></li>
-              <li><a data-pub-button onclick="document.activeElement.blur();">Pubblicazioni</a></li>
+              <li><span data-home-button onclick="document.activeElement.blur();">Home</span></li> 
+              <li><span data-ft-button onclick="document.activeElement.blur();">Facilitatore Terapeutico</span></li>
+              <li><span data-ut-button onclick="document.activeElement.blur();">Percorsi Terapeutici</span></li>
+              <li><span data-bio-button onclick="document.activeElement.blur();">Biografia</span></li>
+              <li><span data-pub-button onclick="document.activeElement.blur();">Pubblicazioni</span></li>
               <li><a href="/scrittura">Scrittura</a></li>
-              <li><a data-cont-button onclick="document.activeElement.blur();">Contatti</a></li>
+              <li><span data-cont-button onclick="document.activeElement.blur();">Contatti</span></li>
             </ul>
         </div>
     </div>
 
     <div class="flex-1">
-        <a data-home-button class="btn btn-ghost normal-case lg:text-xl text-lg">
+        <span data-home-button class="btn btn-ghost normal-case lg:text-xl text-lg">
             <span class="hidden lg:block">Paolo Sernini • Facilitatore Terapeutico</span>
             <span class="lg:hidden block">Paolo Sernini • FT</span>
-        </a>
+        </span>
     </div>
 </nav>
