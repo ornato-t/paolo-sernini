@@ -12,7 +12,7 @@
 <div class="hero lg:bg-[url(/bioBg.webp)] mask h-full" style="">
     <div class="lg:hero-overlay lg:bg-opacity-20"></div>
     <div class="hero-content text-slate-700 flex-col lg:flex-row">
-      <img src="/bioDetail.webp" class="mt-10 max-w-[10rem] sm:max-w-xs rounded-lg shadow-2xl" alt="logo"/>
+      <img src="/bioDetail.webp" class="lg:mt-10 max-w-[10rem] sm:max-w-xs rounded-lg shadow-2xl" alt="logo"/>
       <div class="max-w-4xl">
         <h1 class="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4">Chi è <span class="text-red-500">Paolo Sernini</span> ?</h1>
         <div class="text-md lg:w-5/6 text-justify">
