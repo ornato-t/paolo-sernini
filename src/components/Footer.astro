@@ -20,13 +20,13 @@ const phoneLink = (() => {
 <!-- Need to specify height or it overlows to fill the whole screen -->
 <footer class="footer p-10 bg-neutral text-neutral-content h-min" id="contacts">
     <div>
-        <a href={addr1Link} class="btn btn-ghost h-fit -ml-4" aria-label="studio principale, icona">
+        <a href={addr1Link} class="btn btn-ghost h-fit -ml-4" aria-label="indirizzo studio principale, icona">
             <Icon name="mdi:map-search" class="h-20 w-20"/>
         </a>
-        <a href={addr1Link} class="link link-primary" aria-label="studio principale, indirizzo">
+        <a href={addr1Link} class="link link-primary">
             {addr1}
         </a>
-        <a href={addr2Link} class="link link-primary" aria-label="studio secondario, indirizzo">
+        <a href={addr2Link} class="link link-primary">
             {addr2}
         </a>
     </div>
@@ -35,7 +35,7 @@ const phoneLink = (() => {
         <span class="footer-title opacity-70">sito web</span>
         <div class="lg:w-3/5 grid grid-cols-3 gap-y-1.5">
             <p class="col-span-2">
-                Sviluppo e design a cura di <a class="link link-primary" href="https://github.com/ornato-t" aria-label="github">Tommaso Ornato</a>.
+                Sviluppo e design a cura di <a class="link link-primary" href="https://github.com/ornato-t">Tommaso Ornato</a>.
             </p>
             <a href="https://github.com/ornato-t/paolo-sernini" class="lg:btn lg:btn-ghost w-min row-span-2 my-auto mx-auto lg:mx-0" aria-label="repository github">
                 <Icon name="mdi:github" class="h-14 w-14" />
@@ -78,7 +78,7 @@ const phoneLink = (() => {
                 {phone}
             </a>
         </div>
-        <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email} aria-label="email">
+        <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email}>
             <span class="lg:btn lg:btn-ghost">
                 <Icon name="ic:outline-alternate-email" class="h-8 w-8" />
             </span>
