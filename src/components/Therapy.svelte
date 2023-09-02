@@ -2,7 +2,7 @@
   const points = [
     {
       bold: 'Migliora la comprensione dei percorsi terapeutici intrapresi',
-      normal: 'attraverso la cura dell’aspetto psicofisico.',
+      normal: 'attraverso la cura dell’aspetto psicofisico. e delle componenti collaterali alla patologia. Entrambi aspetti che, troppo spesso, a causa del disequilibrio tra domanda e offerta nel settore sanitario, vengono delegati quasi totalmente al solo paziente.',
     }, {
       bold: 'Promuove un corretto stile di vita',
       normal: 'andando a lavorare sulla prevenzione delle principali problematiche matrici di disequilibri patologici.',
@@ -11,7 +11,7 @@
       normal: 'cercando di catturare le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
     }, {
       bold: 'Offre percorsi terapeutici complementari',
-      normal: 'considerando la malattia cronica non come un problema chimico, ma come un intreccio di disequilibri psico-fisiologici',
+      normal: 'considerando la malattia cronica non solo come esclusivamente un problema chimico, ma come un intreccio di disequilibri psico-fisiologici',
     }, {        
       bold: 'Crea una connessione e una vicinanza con il soggetto',
       normal: 'al fine di poter analizzare in profondità le radici di eventuali cronicizzazioni delle patologie.',
@@ -29,14 +29,14 @@
 <div class="hero min-h-screen bg-gradient-to-b from-cyan-200 to-indigo-300">
     <div class="hero-content text-start">
       <div class="max-w-full lg:max-w-6xl">
-        <h1 class="mb-2 lg:mb-4 lg:mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 
+        <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-2xl lg:text-5xl font-bold text-center"> 
           Di che cosa si occupa un 
           <span class="text-rose-500">facilitatore terapeutico</span>
           ?
         </h1>
 
         <!-- Mobile (borders) -->
-        <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-6 md:hidden">
+        <div class="border-rose-400 border-2 join join-vertical rounded-xl mt-2 mb-4 md:hidden">
           {#each points as point, i}
             <div class="collapse collapse-arrow join-item border-rose-400 border-b">
               <input type="radio" name="accordion" aria-label="menu espandibile {i}"/> 
