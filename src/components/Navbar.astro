@@ -5,6 +5,7 @@ import { Icon } from "astro-icon";
 <script>
     const home = document.querySelectorAll('[data-home-button]');
     const ft = document.querySelector('[data-ft-button]');
+    const sv = document.querySelector('[data-sv-button]');
     const ut = document.querySelector('[data-ut-button]');
     const bio = document.querySelector('[data-bio-button]');
     const pub = document.querySelector('[data-pub-button]');
@@ -12,6 +13,7 @@ import { Icon } from "astro-icon";
 
     home.forEach(el => el.addEventListener('click', () => smoothLink('#home', '/')));
     ft?.addEventListener('click', () => smoothLink('#facilitatore', '/'));
+    sv?.addEventListener('click', () => smoothLink('#servizi', '/'));
     ut?.addEventListener('click', () => smoothLink('#utilita', '/'));
     bio?.addEventListener('click', () => smoothLink('#bio', '/'));
     pub?.addEventListener('click', () => smoothLink('#pubblicazioni', '/'));
@@ -36,6 +38,7 @@ import { Icon } from "astro-icon";
             </label>
             <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 text-base-content rounded-box w-60">
               <li><span data-home-button onclick="document.activeElement.blur();">Home</span></li> 
+              <li><span data-sv-button onclick="document.activeElement.blur();">Servizi</span></li>
               <li><span data-ft-button onclick="document.activeElement.blur();">Facilitatore Terapeutico</span></li>
               <li><span data-ut-button onclick="document.activeElement.blur();">Percorsi Terapeutici</span></li>
               <li><span data-bio-button onclick="document.activeElement.blur();">Biografia</span></li>
