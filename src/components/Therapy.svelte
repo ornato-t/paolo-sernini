@@ -1,20 +1,20 @@
 <script lang="ts">
   const points = [
     {
-      bold: 'Migliora la comprensione dei percorsi terapeutici intrapresi',
-      normal: 'attraverso la cura dell’aspetto psicofisico. e delle componenti collaterali alla patologia. Entrambi aspetti che, troppo spesso, a causa del disequilibrio tra domanda e offerta nel settore sanitario, vengono delegati quasi totalmente al solo paziente.',
+      bold: 'Migliora la comprensione dei percorsi terapeutici intrapresi...',
+      normal: '... attraverso la cura dell’aspetto psicofisico. e delle componenti collaterali alla patologia. Entrambi aspetti che, troppo spesso, a causa del disequilibrio tra domanda e offerta nel settore sanitario, vengono delegati quasi totalmente al solo paziente.',
     }, {
-      bold: 'Promuove un corretto stile di vita',
-      normal: 'andando a lavorare sulla prevenzione delle principali problematiche matrici di disequilibri patologici.',
+      bold: 'Promuove un corretto stile di vita...',
+      normal: '... andando a lavorare sulla prevenzione delle principali problematiche matrici di disequilibri patologici.',
     }, {
-      bold: 'Istruisce e accompagna nella scoperta del proprio stato di stress',
-      normal: 'cercando di catturare le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
+      bold: 'Istruisce e accompagna nella scoperta del proprio stato di stress...',
+      normal: '... cercando di catturare le potenzialità di questo stato ancestrale di adattamento, comprendendolo e non combattendolo strenuamente.',
     }, {
-      bold: 'Offre percorsi terapeutici complementari',
-      normal: 'considerando la malattia cronica non solo come esclusivamente un problema chimico, ma come un intreccio di disequilibri psico-fisiologici',
+      bold: 'Offre percorsi terapeutici complementari...',
+      normal: '... considerando la malattia cronica non solo come esclusivamente un problema chimico, ma come un intreccio di disequilibri psico-fisiologici',
     }, {        
-      bold: 'Crea una connessione e una vicinanza con il soggetto',
-      normal: 'al fine di poter analizzare in profondità le radici di eventuali cronicizzazioni delle patologie.',
+      bold: 'Crea una connessione e una vicinanza con il soggetto...',
+      normal: '... al fine di poter analizzare in profondità le radici di eventuali cronicizzazioni delle patologie.',
     }
   ] satisfies point[];
 

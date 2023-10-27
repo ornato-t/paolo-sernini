@@ -6,6 +6,8 @@ const addr1 = "Via Valgelata 8, Rocca d'Arazzo (AT)";
 const addr1Link = "https://goo.gl/maps/J9anX6KvHAYw4kD46";
 const addr2 = "Via Giuseppe Ferrero 12, Asti (AT)";
 const addr2Link = "https://goo.gl/maps/rMtqjUT4EiQFFVcf9";
+const addr3 = "Arona (NO)";
+const addr3Link = "https://maps.app.goo.gl/6JWn31JQLkUa1YZP7";
 const email = "paoloserninift@gmail.com";
 const facebook = 'https://www.facebook.com/people/Paolo-Sernini-FT/100090954271889/';
 const instagram = 'https://www.instagram.com/paolosernini.ft/';
@@ -28,6 +30,9 @@ const phoneLink = (() => {
         </a>
         <a href={addr2Link} class="link link-primary">
             {addr2}
+        </a>
+        <a href={addr3Link} class="link link-primary">
+            {addr3} (prossima apertura)
         </a>
     </div>
 
@@ -72,10 +77,6 @@ const phoneLink = (() => {
             </a>
             <a href={"https://wa.me/" + phoneLink} class="lg:btn lg:btn-ghost" aria-label="whatsapp">
                 <Icon name="ic:baseline-whatsapp" class="h-8 w-8" />
-            </a>
-
-            <a class="my-auto link link-primary" href={"tel:" + phoneLink}>
-                {phone}
             </a>
         </div>
         <a class="grid grid-flow-col gap-4 mt-4 lg:mt-0" href={"mailto:"+email}>
