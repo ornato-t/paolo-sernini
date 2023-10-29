@@ -26,7 +26,7 @@
 
 <span id="utilita"/>
 
-<div class="hero min-h-screen bg-gradient-to-b from-indigo-300 to-sky-300">
+<div class="hero min-h-screen bg-gradient-to-b from-violet-300 to-sky-300">
     <div class="hero-content text-start text-base-content">
       <div class="max-w-full lg:max-w-7xl">
         <h1 class="mb-2 lg:mb-4 lg:mt-6 px-4 lg:px-0 text-3xl lg:text-5xl font-bold text-center"> 

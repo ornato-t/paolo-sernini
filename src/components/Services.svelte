@@ -3,7 +3,7 @@
 
 <span id="servizi" />
 
-<div class="hero min-h-screen bg-gradient-to-b from-cyan-200 to-cyan-200">
+<div class="hero min-h-screen bg-gradient-to-b from-emerald-200 via-cyan-200 to-blue-300">
     <div class="hero-content text-start">
         <div class="max-w-full lg:max-w-6xl">
             <h1 class="mb-2 lg:mb-4 mt-6 px-4 lg:px-0 text-2xl lg:text-5xl font-bold text-center bg-cyan-400 p-4 rounded-lg">
