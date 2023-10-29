@@ -13,7 +13,9 @@ import Services from '../components/Services.svelte';
 	<Navbar/>
 	<main class="scrollable">
 		<Home/>
-		<Services/>
+		<div class="hidden md:block">
+			<Services/>
+		</div>
 		<Therapy/>
 		<Utility/>
 		<Who/>
