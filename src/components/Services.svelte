@@ -15,7 +15,7 @@
 
             <!-- Mobile (borders) -->
             <ul class="mb-2 flex flex-col gap-y-4 md:hidden">
-                <div class="flex gap-4 flex-row justify-self-start">
+                <li class="flex gap-4 flex-row justify-self-start">
                     <div class="flex flex-col justify-between">
                         <div>
                             <span class="text-sm">
@@ -27,29 +27,30 @@
                         </div>
                         <p class="italic text-sm my-auto">Nota: la prima seduta dura in media due ore</p>
                     </div>
-                </div>
-                <div class="flex gap-4 flex-row-reverse justify-self-end">
+                </li>
+
+                <li class="flex gap-4 flex-row-reverse justify-self-end">
                     <div class="flex flex-col">
                         <span class="text-sm">
                             <p class="my-1.5">Un'eccessiva settorializzazione della visione clinica può talvolta limitare la valutazione della problematica.</p>
                             <p class="my-1.5 text-lg">Per questo avere una conoscenza sia della <strong class="font-bold">psicologia</strong> umana che delle pratiche terapeutiche <strong class="font-bold">occidentali e orientali</strong>, può aprire alla vera radice del problema.</p>
                         </span>
                     </div>
-                </div>
+                </li>
 
-                <div class="flex gap-4 flex-row justify-self-start">
+                <li class="flex gap-4 flex-row justify-self-start">
                     <div class="flex flex-col">
                         <span class="text-sm">
                             <p class="my-1.5">Le crescenti distanze fisiche e umane tra paziente e curante possono costituire un forte ostacolo alla guarigione.</p>
                             <p class="my-1.5 text-lg">Per questo si effettuano <strong class="font-bold">visite a domicilio</strong>. Previa valutazione, si offrono trasferte su tutto il <strong class="font-bold">territorio nazionale</strong>.</p>
                         </span>
                     </div>
-                </div>
+                </li>
             </ul>
 
             <!-- Desktop -->
             <ul class="mb-8 pl-8 hidden md:flex flex-col gap-y-3">
-                <div class="flex gap-4 flex-row justify-self-start">
+                <li class="flex gap-4 flex-row justify-self-start">
                     <img src="/interview.jpg" alt="" class="w-48 h-48 rounded-xl" />
 
                     <div class="flex flex-col justify-between">
@@ -65,9 +66,9 @@
                     </div>
 
                     <div class="w-[19rem]" />
-                </div>
+                </li>
 
-                <div class="flex gap-4 flex-row-reverse justify-self-end">
+                <li class="flex gap-4 flex-row-reverse justify-self-end">
                     <img src="/navigation.jpg" alt="" class="w-48 h-48 rounded-xl" />
 
                     <div class="flex flex-col">
@@ -78,9 +79,9 @@
                     </div>
 
                     <div class="w-[19rem]" />
-                </div>
+                </li>
 
-                <div class="flex gap-4 flex-row justify-self-start">
+                <li class="flex gap-4 flex-row justify-self-start">
                     <img src="/home.jpg" alt="" class="w-48 h-48 rounded-xl" />
 
                     <div class="flex flex-col">
@@ -91,7 +92,7 @@
                     </div>
 
                     <div class="w-[19rem]" />
-                </div>
+                </li>
             </ul>
         </div>
     </div>
