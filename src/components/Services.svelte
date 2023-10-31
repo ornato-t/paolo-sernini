@@ -55,9 +55,9 @@
 
                     <div class="flex flex-col justify-between">
                         <div>
-                            <span>
+                            <span class="my-auto">
                                 <p class="my-1.5">Spesso la poca efficacia delle cure intraprese non è da attribuirsi agli specialisti, ma all'osservare il sintomo troppo da vicino.</p>
-                                <p class="my-1.5 text-lg">
+                                <p class="mt-1.5 text-lg">
                                     Per questo la <strong class="font-bold">durata delle sedute</strong> non è fissa, ma soggiace alla corretta ricostruzione dell'<strong class="font-bold"> anamnesi</strong> e alle <strong class="font-bold">necessità del paziente</strong>.
                                 </p>
                             </span>
@@ -72,7 +72,7 @@
                     <img src="/navigation.jpg" alt="" class="w-48 h-48 rounded-xl" />
 
                     <div class="flex flex-col">
-                        <span>
+                        <span class="my-auto">
                             <p class="my-1.5">Un'eccessiva settorializzazione della visione clinica può talvolta limitare la valutazione della problematica.</p>
                             <p class="my-1.5 text-lg">Per questo avere una conoscenza sia della <strong class="font-bold">psicologia</strong> umana che delle pratiche terapeutiche <strong class="font-bold">occidentali e orientali</strong>, può aprire alla vera radice del problema.</p>
                         </span>
@@ -85,7 +85,7 @@
                     <img src="/home.jpg" alt="" class="w-48 h-48 rounded-xl" />
 
                     <div class="flex flex-col">
-                        <span>
+                        <span class="my-auto">
                             <p class="my-1.5">Le crescenti distanze fisiche e umane tra paziente e curante possono costituire un forte ostacolo alla guarigione.</p>
                             <p class="my-1.5 text-lg">Per questo si effettuano <strong class="font-bold">visite a domicilio</strong>. Previa valutazione, si offrono trasferte su tutto il <strong class="font-bold">territorio nazionale</strong>.</p>
                         </span>
